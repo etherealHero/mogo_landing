@@ -1,15 +1,17 @@
-# Daisy Landing Page
+# Mogo Landing Page
 
 lang [RU][home_ru] | [EN][home_en]
 
 ## 🚀 Technologies
 
-- HTML x [SCSS][link0]
+- HTML x CSS
+- DOM API by [jQuery][link0]
 - [Yandex BEM][link1]
+- [FontAwesome][link2]
 
 ## 📋 Description
 
-This repository contains an adaptive layout of a landing page for a design studio. [**Demo online**][preview]
+This repository contains an adaptive layout of a landing page for a Mogo design studio. [**Demo online**][preview]
 
 ![asset0]
 
@@ -25,18 +27,17 @@ The main file to launch the application is `index.html`, located in the project'
 ## 📂 Project Structure
 
 ```plaintext
-css/
-  styles.css
-  styles.scss
-img/
-  logo.svg
+imges/**/*.jpg
 index.html
+styles.css
+app.js
 ```
 
 ## 📝 TODO
 
 - [x] Complete adaptive layout
-- [x] Use BEM methodology with SCSS
+- [x] Use BEM methodology
+- [x] Use jQuery for global menu via DOM API
 
 > [!TIP]
 > [Markdown UI kit][md_ui_kit] for README.md
@@ -50,11 +51,11 @@ This project is licensed under the MIT License. See [LICENSE](/LICENSE) for deta
 [home_ru]: README.md
 [home_en]: README.en.md
 [license]: /LICENSE
-[preview]: https://etherealhero.github.io/daisy_landing/
+[preview]: https://etherealhero.github.io/mogo_landing/
 [md_ui_kit]: https://gist.github.com/etherealHero/ffe9de043f3c2639e864b4fddec8e9e4
-[link0]: https://sass-scss.ru/
+[link0]: https://jquery.com/
 [link1]: https://ru.bem.info/
-[link2]: #
+[link2]: https://fontawesome.com/
 [link3]: #
 [link4]: #
 [link5]: #
